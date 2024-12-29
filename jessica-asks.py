@@ -1,6 +1,10 @@
 import random
-name = "Jessica Huang"
-question = "Is Eddie reading that trash again?"
+
+name = ""
+name= input("What is your name? ")
+
+question = ""
+question =input("Ask me any yes or no question ")
 answer = ""
 random_number = random.randint(1,9)
 if random_number == 1:
